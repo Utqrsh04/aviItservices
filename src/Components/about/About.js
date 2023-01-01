@@ -11,8 +11,8 @@ export default function About() {
       <section class="about">
         <div class="aboutcontent">
           <Fade left>
-            <h2>About Us</h2>
-            <p> AVI IT SERVICES</p>
+            {/* <h2>About Us</h2> */}
+            <p> AVIIT SERVICES</p>
           </Fade>
         </div>
       </section>
@@ -21,25 +21,19 @@ export default function About() {
           <div class="about-container">
             <div class="content-about">
               <div class="abouttitle">
-                <h1>Know Us</h1>
+                <h2>About Us</h2>
               </div>
               <div class="section1content">
                 <p>
-                  Our firm remains on the cutting edge of recruitment trends. We
-                  stay well-informed and continually adapt to the ever-changing
-                  world of human resources.
+                  AVI IT Services Private Limited is founded in February ,2022 a
+                  pan -African Subsidiary.
                 </p>
                 <p>
-                  Our consistent record of uncompromising ethics instills
-                  confidence and trust. Our consulting services focus on the
-                  client’s most critical issues and opportunities in the talent
-                  space.
+                  AVI IT Services Private Limited Is A Fast Growing Company .
                 </p>
                 <p>
-                  We help companies manage their talent needs. We are a company
-                  that focuses on building talent ecosystem. We create,
-                  integrate and optimise the Talent Supply Chain for
-                  organisations.
+                  we provide the public sector enterprises with multiple levels
+                  of support to integrate Oracle Utilities, ORMB , CC&B.
                 </p>
               </div>
             </div>

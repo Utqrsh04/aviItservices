@@ -8,11 +8,17 @@
   padding-top: 5%;
   margin-bottom: 60px;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 38px;
 }
 
 .clients-row {
   padding: 20px 200px;
+  font-size: 16px;
+}
+
+.questtion {
+  color: black;
+  /* color: #2c8fcd; */
 }
 
 .circle-card {
@@ -33,6 +39,9 @@
   align-items: center;
 }
 
+.whatwedo-text-p {
+  font-size: 16px;
+}
 .circle-image {
   width: 60%;
 }

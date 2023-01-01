@@ -1,12 +1,12 @@
 import React from "react";
 import "./HeroSection.css";
 import OurServices from "../OurServices/OurServices";
-import OurReach from "../OurReach/OurReach";
 import SpecializedSector from "../SpecializedSectors/SpecializedSector";
-import WhyUs from "../WhyUs/WhyUs";
 import { NavLink } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
+import WhatWeDo from "../WhatWeDo/WhatWeDo";
+import Features from "../Features/Features";
 
 const HersoSection = () => {
   return (
@@ -16,7 +16,7 @@ const HersoSection = () => {
           <div className="hero-content">
             <Fade bottom>
               <div className="hero-left">
-                <h1 className="hero-primary-text">AVI IT Services</h1>
+                <h1 className="hero-primary-text">AVIIT Services</h1>
                 <p className="hero-secondry-text">
                   Envision, Execute, Lead.
                   <br />
@@ -44,11 +44,12 @@ const HersoSection = () => {
               <h1 className="aboutus-primary-text">About Us</h1>
 
               <h3 className="aboutus-secondry-text">
-                Founded in 2022, AVI IT Services Private Limited is a fast
-                growing company in recruitment industry. Our focus is always on
-                innovative, measurable and value-added recruitment solutions to
-                maximize client returns through our unique state-of-the-art
-                recruitment model.
+                AVI IT Services Private Limited is founded in February , 2022 a
+                pan -African Subsidiary. AVI IT Services Private Limited Is A
+                Fast Growing Company .
+                <br />
+                We provide the public sector enterprises with multiple levels of
+                support to integrate Oracle Utilities, ORMB , CC&B.
               </h3>
 
               <div className="aboutus-btn-container">
@@ -72,13 +73,17 @@ const HersoSection = () => {
         </div>
       </section>
 
+      <WhatWeDo />
+
       <OurServices />
 
-      <OurReach />
+      {/* <OurReach /> */}
 
       {/* <Clients /> */}
 
-      <WhyUs />
+      {/* <WhyUs /> */}
+
+      <Features />
       <SpecializedSector />
     </>
   );

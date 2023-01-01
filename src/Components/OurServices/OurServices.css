@@ -12,6 +12,7 @@
   font-size: 38px;
   color: black;
   margin-top: 0;
+  color: #ff834f !important;
 }
 
 .ourservices-row {
@@ -24,6 +25,7 @@
   padding: 10px 200px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .row2box {
